@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap');
+
 body {
     background-color: black;
 }
@@ -16,12 +18,14 @@ div .quem {
     margin-top: 73px;
     font-size: 32px;
     color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    
 }
 section {
     width: 700px;
+    
 }
 section ul {
-    margin-top: 61px;
     list-style: none;
     display: flex;
     color: white;
@@ -42,18 +46,22 @@ section ul {
     height: 50px;
     color: #FFFFFF;
     font-size: 16px;
+    font-family: 'IBM Plex Sans', sans-serif;
     
 }
+
 section ul .avatar {
     border-radius: 8px;
+    
 }
-
-section ul li img:hover {
-    transform: scale(1.2);
-}
-section ul li img {
+section ul div {
     overflow: hidden;
 }
+
+section ul img:hover {
+    transform: scale(1.5);
+}
+
 .perfis:hover {
     background-color: #FFFFFF;
     color:black;
@@ -61,4 +69,5 @@ section ul li img {
 p {
     display: flex;
     justify-content: center;
+    font-family: 'IBM Plex Sans', sans-serif;
 }

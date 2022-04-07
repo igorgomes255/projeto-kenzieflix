@@ -55,6 +55,7 @@ section ul .avatar {
     
 }
 section ul div {
+    border-radius: 8px;
     overflow: hidden;
 }
 
